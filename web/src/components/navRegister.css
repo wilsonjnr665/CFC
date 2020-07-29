@@ -1,0 +1,19 @@
+.nav-register li {
+  list-style: none;
+  text-align: end;
+  height: 70px;
+  line-height: 70px;
+  padding-right: 2.5em;
+  cursor: pointer;
+}
+
+.nav-register {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.nav-register ul {
+  padding: 0;
+  margin: 0
+}

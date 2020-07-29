@@ -1,0 +1,138 @@
+.nav-register li {
+  list-style: none;
+  text-align: end;
+  height: 70px;
+  line-height: 70px;
+  padding-right: 2.5em;
+  cursor: pointer;
+}
+
+.nav-register {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.nav-register ul {
+  padding: 0;
+  margin: 0
+}
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+.register-student ul {
+  padding: 0;
+  margin: 0;
+}
+
+.register-student li {
+  display: flex;
+  list-style: none;
+  padding: 1.5em;
+  padding-top: calc(1.5em - 10px);
+  flex-wrap: wrap;
+  background-color: #f2f2f2;
+}
+
+.register-student label {
+  display: block;
+  text-align: start;
+  font-size: 0.8em;
+  font-weight: 600;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+.register-student input {
+  padding: 7px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: inset;
+  text-align: start;
+}
+
+.register-student select {
+  height: 28px;
+}
+
+.register-student li span {
+  padding-right: 2em;
+}
+
+.register-student input::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+.register-student input[name="name"] {
+  width: 500px;
+}
+
+.register-student input[name="rg"] {
+  width: 85px;
+}
+
+.register-student input[name="cpf"] {
+  width: 95px;
+}
+
+.UF {
+  width: 50px;
+}
+
+.register-student input[name="birthDate"] {
+  width: 120px;
+}
+
+.register-student input[name="cep"] {
+  width: 70px;
+}
+
+.register-student input[name="streetNumber"] {
+  width: 50px;
+}
+
+.register-student input[name="telephoneNumber"] {
+  width: 100px;
+}
+
+.register-student input[name="cellphoneNumber"] {
+  width: 100px;
+}
+
+.register-student input:focus {
+  background-color: #E6E6FA;
+  outline: black;
+}
+
+.register-student input:-webkit-autofill {
+  box-shadow:0 0 0 50px white inset; /* Change the color to your own background color */
+}
+
+.register-student input:-webkit-autofill:focus {
+  box-shadow: /*your box-shadow*/0 0 0 50px white inset;
+} 
+
+.error-span {
+  display: none;
+}
+
+.error {
+  color: red;  
+  padding: 0px !important;
+}
+
+.tooltiptext {  
+  position: absolute;
+  visibility: hidden;
+  font-weight: 100;
+  background-color: white;  
+  z-index: 1;
+}
+
+.error:hover .tooltiptext, label:hover .tooltiptext{
+  visibility: visible;
+}
+
+
+/*# sourceMappingURL=/App.d36a57b6.css.map */

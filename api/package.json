@@ -1,0 +1,21 @@
+{
+  "name": "cfc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.14.2",
+    "express": "^4.17.1",
+    "graphql": "^15.0.0",
+    "graphql-iso-date": "^3.6.1",
+    "mongoose": "^5.9.17",
+    "nodemon": "^2.0.4"
+  }
+}
